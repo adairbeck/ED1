@@ -3,6 +3,8 @@ createCanvas(720,720);//creates a canvas 720x720 pixels
 }
 
 function draw() {//runs in a loop
+fill(185, 169, 245);//fills shape with rgb color
+strokeWeight(8);//assigns stroke weight 
 quad (0,0,
       300,0,
       300,300,
