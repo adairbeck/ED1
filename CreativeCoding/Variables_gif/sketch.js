@@ -13,7 +13,7 @@ function draw() {//runs in a loop
 fill('fuchsia');//fills shape with rgb color
 strokeWeight(1);//assigns stroke weight
 
-var num =2; //number of sides in the array
+var num =5; //number of sides in the array
 var sideLen = windowWidth/num ;//side length variable
 
 for (var y = 0; y < windowWidth; y = y+sideLen){
