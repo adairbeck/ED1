@@ -8,12 +8,15 @@ function draw() {//runs in a loop
 fill(185, 169, 245);//fills shape with rgb color
 strokeWeight(1);//assigns stroke weight
 
-for (var y = 0; y < 720; y = y+360){
-  for (var x = 0; x < 720; x = x+360){
+var num =2; //number of sides in the array
+var sideLen = 720/num ;//side length variable
+
+for (var y = 0; y < 720; y = y+sideLen){
+  for (var x = 0; x < 720; x = x+sideLen){
     quad (x,y,
-          x+360,y,
-          x+360,360+y,
-          x,360+y);
+          x+sideLen,y,
+          x+sideLen,sideLen+y,
+          x,sideLen+y);
 
   }
 
