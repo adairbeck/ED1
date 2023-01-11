@@ -16,6 +16,8 @@ strokeWeight(1);//assigns stroke weight
 var num =5; //number of sides in the array
 var sideLen = windowWidth/num ;//side length variable
 
+translate (-150, -150);
+
 for (var y = 0; y < 2 * windowWidth; y = y+sideLen){
   for (var x = 0; x < 2 * windowWidth; x = x+sideLen){
 
@@ -24,8 +26,9 @@ image (img, x, y, windowWidth/num; windowWidth/num);
 
 }
 
-function windowResized () {//allow windowrefresh with window resizing
-  resizeCanvas (windowWidth, windowHeight);
 }
 
+}
+function windowResized () {//allow windowrefresh with window resizing
+  resizeCanvas (windowWidth, windowHeight);
 }
