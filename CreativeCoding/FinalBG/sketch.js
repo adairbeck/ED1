@@ -2,7 +2,7 @@
 let img;
 
 function preload (){
-  gif = loadImage ('assets/AdairGraphicWeb.png')
+  gif = loadImage ('assets/ScreenShot.png')
 }
 
 function setup() {//run once
